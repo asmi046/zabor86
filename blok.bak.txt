@@ -1,0 +1,16 @@
+		<!--<div class="get-catalog">
+		<div class="container">
+		<div class="row">
+		  <div class="get-catalog__title">Скачайте наш каталог продукции</div>
+		  <div class="get-catalog__form">
+			<?php echo do_shortcode('[contact-form-7 id="32" title="Получить каталог"]'); ?>
+		  </div>
+		</div>
+		</div>
+		</div>-->
+		/*
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+  location = '/wp-content/uploads/2021/07/catalog.pdf';
+}, false );
+
+});*/
