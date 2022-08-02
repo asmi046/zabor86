@@ -64,7 +64,7 @@ function sliders_bild_callback(params) { }
 let sliderBg = new Swiper('.slider-bg', {
   // effect: 'fade',
   autoplay: {
-    delay: 3000,
+    delay: 7000,
     disableOnInteraction: false,
   },
 
@@ -82,10 +82,10 @@ let sliderBg = new Swiper('.slider-bg', {
   //preloadImages: false,
   //lazy: true,
   // Dotts
-  //pagination: {
-  //	el: '.swiper-paggination',
-  //	clickable: true,
-  //},
+  pagination: {
+    el: '.swiper-paggination',
+    clickable: true,
+  },
   // Arrows
   navigation: {
     nextEl: '.swiper-button-next',
