@@ -5520,3 +5520,11 @@ input[type="checkbox"]:active {
 .product-card__title {
 	flex: 1 1 auto;
 }
+
+.page-head {
+	background-image: url('img/page-img.jpg');
+}
+
+.page-head .overlay {
+	background-color: rgba(50, 55, 59, .65);
+}

@@ -12,10 +12,10 @@
 		<div class="contacts-card">
 		  <div class="contacts-card__title">Контакты</div>
 		  <div class="contacts-card__list">
-			<li><i class="fas fa-clock"></i> Пн-вс: 09:00 - 23:00</li>
-			<li><i class="fas fa-map-marker-alt"></i> Ханты-Мансийский автономный округ, ул. Маяковского, 57, Сургут</li>
-			<li><i class="fas fa-envelope"></i> zabor.86@internet.ru</li>
-			<li><i class="fas fa-phone-alt"></i> +7 (922) 776-62-55 </li>
+			<li itemprop="openingHours" datetime="Mo-Su, 09:00-23:00"><i class="fas fa-clock"></i> Пн-вс: 09:00 - 23:00</li>
+			<li itemprop="streetAddress"><i class="fas fa-map-marker-alt"></i> Ханты-Мансийский автономный округ, ул. Маяковского, 57, Сургут</li>
+			<li itemprop="email"><i class="fas fa-envelope"></i> zabor.86@internet.ru</li>
+			<li itemprop="telephone"><i class="fas fa-phone-alt"></i> +7 (922) 776-62-55 </li>
 		  </div>
 		</div>
 	  </div>
