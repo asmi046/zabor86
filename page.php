@@ -16,11 +16,16 @@ get_header();
 ?>
 	<main id="primary" class="site-main">
 		<?php
-		while ( have_posts() ) :
-			the_post();
-		endwhile; // End of the loop.
+			if ( function_exists('yoast_breadcrumb') ) {
+				  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+			  }
+		?> 
+			<?php
+			while ( have_posts() ) :
+				the_post();
+			endwhile; // End of the loop.
 		?>
-	</main><!-- #main -->
+	</main><!-- #main --> 
 
 <?php
 get_sidebar();

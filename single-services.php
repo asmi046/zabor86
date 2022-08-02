@@ -19,6 +19,11 @@ get_header();
 <main id="primary" class="site-main">
 <div class="page-content">
 <div class="container">
+  <?php
+		if ( function_exists('yoast_breadcrumb') ) {
+				yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+			}
+	?> 
 	<div class="row">
 <?php the_content(); ?>
 <div class="sale_btn"><a href="#callback" rel="modal:open" class="btn btn--main">Заказать консультацию</a></div>
