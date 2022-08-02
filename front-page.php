@@ -3,28 +3,62 @@ get_header();
 ?>
       <main role="main">
       <div class="offer">
-        <div class="offer__top" style="background-image: url(/wp-content/themes/zabor/img/fon.jpg);">
-          <div class="overlay"></div>
-          <div class="container">
-            <div class="offer__inner">
-              <h1 class="offer__title">Строительство <span>заборов, ворот и установка кровли</span> любой сложности</h1>
-              <div class="offer__text">Любые типы ворот, заборов и кровель<br>Работаем в Сургуте и по всему Ханты-Мансийскому округу</div>
-              <a href="#callback" rel="modal:open" class="btn btn--main">Заказать консультацию</a> 
-              <!--<div class="offer-call">
-                <div class="offer-call__header">
-                  <i class="fas fa-calculator fa-3x"></i>
-                  <span>Калькулятор</span> забора
-                </div>
-                <ul class="offer-call__list">
-                  <li>Узнай цену за 2 минуты</li>
-                  <li>Смоделируй из 500 моделей</li>
-                  <li>Узнай цену за 2 минуты</li>
-                </ul>
-                <div class="btn">Посчитать</div>
-              </div>-->
-            </div>
-          </div>
+
+        <div class="offer__top">
+
+					<div class="offer__sliders slider-bg _swiper">
+
+						<div class="offer__sliders-slide slider__slide" style="background-image: url(/wp-content/themes/zabor/img/fon.jpg);">
+          		<div class="overlay"></div>
+          		<div class="container">
+            		<div class="offer__inner"> 
+              		<h1 class="offer__title">Строительство <span>заборов, ворот и установка кровли</span> любой сложности</h1>
+              		<div class="offer__text">Любые типы ворот, заборов и кровель<br>Работаем в Сургуте и по всему Ханты-Мансийскому округу</div>
+              		<a href="#callback" rel="modal:open" class="btn btn--main">Заказать консультацию</a> 
+              			<!--<div class="offer-call">
+                		<div class="offer-call__header">
+                	 	 <i class="fas fa-calculator fa-3x"></i>
+                 		 <span>Калькулятор</span> забора
+                		</div>
+               		 <ul class="offer-call__list">
+                 		 <li>Узнай цену за 2 минуты</li>
+                  		<li>Смоделируй из 500 моделей</li>
+                 		 <li>Узнай цену за 2 минуты</li>
+                		</ul>
+                		<div class="btn">Посчитать</div>
+              		</div>-->
+            		</div>
+          		</div>
+						</div>
+
+
+						<div class="offer__sliders-slide slider__slide" style="background-image: url(/wp-content/themes/zabor/img/fon.jpg);">
+          		<div class="overlay"></div>
+          		<div class="container">
+            		<div class="offer__inner"> 
+              		<h1 class="offer__title">Строительство <span>заборов, ворот и установка кровли</span> любой сложности</h1>
+              		<div class="offer__text">Любые типы ворот, заборов и кровель<br>Работаем в Сургуте и по всему Ханты-Мансийскому округу</div>
+              		<a href="#callback" rel="modal:open" class="btn btn--main">Заказать консультацию</a> 
+              			<!--<div class="offer-call">
+                		<div class="offer-call__header">
+                	 	 <i class="fas fa-calculator fa-3x"></i>
+                 		 <span>Калькулятор</span> забора
+                		</div>
+               		 <ul class="offer-call__list">
+                 		 <li>Узнай цену за 2 минуты</li>
+                  		<li>Смоделируй из 500 моделей</li>
+                 		 <li>Узнай цену за 2 минуты</li>
+                		</ul>
+                		<div class="btn">Посчитать</div>
+              		</div>-->
+            		</div>
+          		</div>
+						</div>
+
+					</div>
+
         </div>
+
         <div class="offer__bottom" id="advantages">
           <div class="container">
             <h2 class="section__title">Наши преимущества</h2>

@@ -9,7 +9,7 @@
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
+	define( '_S_VERSION', '1.0.0' ); 
 }
 
 if ( ! function_exists( 'zabor_setup' ) ) :
@@ -169,6 +169,8 @@ add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
 function zabor_scripts() {
 	wp_enqueue_style( 'zabor-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_script( 'zabor-main-js', get_template_directory_uri() . '/js/script.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'zabor-vendors-js', get_template_directory_uri() . '/js/vendors.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'zabor-swiper-js', get_template_directory_uri() . '/js/swiper.js', array(), _S_VERSION, true );
 }
 add_action( 'wp_enqueue_scripts', 'zabor_scripts' );
 
@@ -266,3 +268,6 @@ function true_register_post_type_init_reviews() {
 	);
 	register_post_type('Reviews', $args);
 }
+
+
+
