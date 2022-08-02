@@ -7,7 +7,7 @@ get_header();
           <div class="overlay"></div>
           <div class="container">
             <div class="offer__inner">
-              <div class="offer__title">Строительство <span>заборов, ворот и установка кровли</span> любой сложности</div>
+              <h1 class="offer__title">Строительство <span>заборов, ворот и установка кровли</span> любой сложности</h1>
               <div class="offer__text">Любые типы ворот, заборов и кровель<br>Работаем в Сургуте и по всему Ханты-Мансийскому округу</div>
               <a href="#callback" rel="modal:open" class="btn btn--main">Заказать консультацию</a> 
               <!--<div class="offer-call">
@@ -27,7 +27,7 @@ get_header();
         </div>
         <div class="offer__bottom" id="advantages">
           <div class="container">
-            <div class="section__title">Наши преимущества</div>
+            <h2 class="section__title">Наши преимущества</h2>
             <div class="row offer__list">
               <div class="offer__item">
                 <div class="offer__item-title">Широкий диапазон работ</div>
@@ -59,7 +59,7 @@ get_header();
       </div>
 		<div class="section">
 		<div class="container">
-		<div class="section__title">Наши услуги</div>
+		<h2 class="section__title">Наши услуги</h2>
 		<div class="services row" id="services">
 		  <div class="services__item">
 			<a href="/zabory" class="s-card" style="background-image: url(/wp-content/themes/zabor/img/zabory.jpg);">
@@ -87,7 +87,7 @@ get_header();
 		<div class="section how-we-work">
 		<div class="container">
 		<div class="row">
-		  <div class="section__title">Как мы работаем</div>
+		  <h2 class="section__title">Как мы работаем</h2>
 			<div class="container">
 				<div class="how-list">
 				<div class="how-item">
@@ -137,7 +137,7 @@ get_header();
 		</div>
 		<div class="section reviews">
 		  <div class="container">
-		  <div class="row"><div class="section__title">Отзывы</div></div>
+		  <div class="row"><h2 class="section__title">Отзывы</h2></div>
 			<div class="owl-carousel reviews-carousel">
 <?php 
 $query = new WP_Query( 'post_type=Reviews&nopaging=1&orderby=modified&order=DESC' ); 
@@ -165,7 +165,7 @@ else
 		</div>
 		<div class="section" id="faq">
 		  <div class="container">
-			<div class="section__title">Часто задаваемые вопросы</div>
+			<h2 class="section__title">Часто задаваемые вопросы</h2>
 			<div class="accordion-group">
 <?php 
 $query = new WP_Query( 'post_type=FAQ&nopaging=1&orderby=modified&order=DESC' ); 

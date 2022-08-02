@@ -10,7 +10,7 @@
 	  </div>
 	  <div class="contacts-col-card">
 		<div class="contacts-card">
-		  <div class="contacts-card__title">Контакты</div>
+		  <h2 class="contacts-card__title">Контакты</h2>
 		  <div class="contacts-card__list">
 			<li itemprop="openingHours" datetime="Mo-Su, 09:00-23:00"><i class="fas fa-clock"></i> Пн-вс: 09:00 - 23:00</li>
 			<li itemprop="streetAddress"><i class="fas fa-map-marker-alt"></i> Ханты-Мансийский автономный округ, ул. Маяковского, 57, Сургут</li>

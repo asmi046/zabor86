@@ -3,7 +3,7 @@
   <div class="container">
 	<div class="row">
 	  <div class="faq-feedback__head">
-		<div class="faq-feedback__title">Остались вопросы?</div>
+		<h2 class="faq-feedback__title">Остались вопросы?</h2>
 		<div class="faq-feedback__sub-title">Вы можете оставить свой вопрос, и наши специалисты ответят на него в течение дня</div>
 	  </div>
 	  <div class="faq-feedback__form">

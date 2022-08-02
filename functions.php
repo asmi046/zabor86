@@ -266,4 +266,3 @@ function true_register_post_type_init_reviews() {
 	);
 	register_post_type('Reviews', $args);
 }
-

@@ -5528,3 +5528,7 @@ input[type="checkbox"]:active {
 .page-head .overlay {
 	background-color: rgba(50, 55, 59, .65);
 }
+
+.logo {
+	width: 250px;
+}
