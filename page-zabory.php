@@ -11,6 +11,11 @@ get_header();
       <main role="main">
         <div class="page-content">
           <div class="container">
+            <?php
+			        if ( function_exists('yoast_breadcrumb') ) {
+				        yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+			        }
+			      ?> 
             <h2>Надежный забор — залог безопасности</h2>
             <p class="lead-text">Мы возводим заборы разнообразной конфигурации — от декоративных до глухих двухметровых. Поможем определиться с выбором, учитывая место расположения, ваши предпочтения и бюджет. Устанавливаем заборы:</p>
             <div class="product-catalog">

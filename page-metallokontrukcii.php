@@ -11,6 +11,11 @@ get_header();
       <main role="main">
         <div class="page-content">
           <div class="container">
+          <?php
+			        if ( function_exists('yoast_breadcrumb') ) {
+				        yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+			        }
+			      ?> 
             <p class="lead-text">Повседневная практика показывает, что сложившаяся структура организации в значительной степени обуславливает создание соответствующий условий активизации. Разнообразный и богатый опыт рамки и место обучения кадров играет важную роль в формировании систем массового участия.</p>
             <div class="product-catalog">
 <?php 

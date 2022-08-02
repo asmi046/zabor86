@@ -11,6 +11,11 @@ get_header();
       <main role="main">
         <div class="page-content">
           <div class="container">
+          <?php
+			        if ( function_exists('yoast_breadcrumb') ) {
+				        yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+			        }
+			      ?> 
             <h2>ВОРОТА ПОД КЛЮЧ</h2>
             <p class="lead-text">Заказать установку ворот в Сургуте по цене от 8159 руб. Монтаж всех видов (откатные, гаражные, распашные, Dorhan, более 21 видов) ворот под ключ. Вызвать замерщика по тел. +7 (922) 776-62-55 Новые ворота со скидкой в Июле до 11% Гарантия 2 г.</p>
             <div class="product-catalog">
