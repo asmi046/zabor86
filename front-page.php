@@ -9,7 +9,7 @@ get_header();
             <div class="offer__inner">
               <div class="offer__title">Строительство <span>заборов, ворот и установка кровли</span> любой сложности</div>
               <div class="offer__text">Любые типы ворот, заборов и кровель<br>Работаем в Сургуте и по всему Ханты-Мансийскому округу</div>
-              <a href="#callback" rel="modal:open" class="btn btn--main">Заказать консультацию</a>
+              <a href="#callback" rel="modal:open" class="btn btn--main">Заказать консультацию</a> 
               <!--<div class="offer-call">
                 <div class="offer-call__header">
                   <i class="fas fa-calculator fa-3x"></i>
