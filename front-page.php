@@ -63,15 +63,15 @@ get_header();
             <h2 class="section__title">Наши преимущества</h2>
             <div class="row offer__list">
               <div class="offer__item">
-                <div class="offer__item-title">Широкий диапазон работ</div>
+                <h3 class="offer__item-title">Широкий диапазон работ</h3>
                 <div class="offer__item-text">Мы строим коттеджи, летние дачные домики, бани и беседки разных конфигураций, монтируем крыши, делаем облицовки фасадов, а также возводим заборы и многое другое. <span>Есть задача? Мы решим!</span></div>
               </div>
               <div class="offer__item">
-                <div class="offer__item-title">Индивидуальный подход</div>
+                <h3 class="offer__item-title">Индивидуальный подход</h3>
                 <div class="offer__item-text">У нас нет типовых проектов, поскольку мы <span>строим объекты с учетом пожеланий каждого заказчика</span>, и помогаем выбрать лучшее решение исходя из назначения, бюджета, особенностей ландшафта и других нюансов.</div>
               </div>
               <div class="offer__item">
-                <div class="offer__item-title">Высокое качество</div>
+                <h3 class="offer__item-title">Высокое качество</h3>
                 <div class="offer__item-text">Опытные рабочие + современные технологии + качественные материалы = <span>отличный результат</span>. Мы построили более 30 различных объектов по всему Сургуту и в других городах.</div>
               </div>
               <div class="offer__item">
@@ -79,11 +79,11 @@ get_header();
                 <div class="offer__item-text">Мы <span>идем навстречу клиентам</span> и готовы обсудить с ними любые пожелания и новые идеи, даже если они не были изначально заложены в проект.</div>
               </div>
               <div class="offer__item">
-                <div class="offer__item-title">Доступные цены</div>
+                <h3 class="offer__item-title">Доступные цены</h3>
                 <div class="offer__item-text">Мы не создаем искусственных накруток цен и <span>точно определяем стоимость работ</span>. А обращаясь к нам через сайт, вы получаете скидку 10%.</div>
               </div>
               <div class="offer__item">
-                <div class="offer__item-title">Ответственность и точность сроков</div>
+                <h3 class="offer__item-title">Ответственность и точность сроков</h3>
                 <div class="offer__item-text">Мы <span>заботимся о времени клиентов</span>, и делаем все от нас зависящее, чтобы работа была сдана в срок.</div>
               </div>
             </div>

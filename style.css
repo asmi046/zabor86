@@ -3495,6 +3495,7 @@ a.pagination__item:hover {
 	font-size: 18px;
 	line-height: 1.4;
 	font-weight: 700;
+	margin-top: 0;
 	margin-bottom: 25px;
 }
 
@@ -5772,6 +5773,17 @@ input[type="checkbox"]:active {
 	left: 17%;
 }
 
+@media (max-width: 990px) {
+	.offer__inner {
+		padding-bottom: 65px;
+	}
+
+	.slider-main__swiper-paggination {
+		position: absolute;
+		bottom: 5%;
+		left: -3.5%;
+	}
+}
 
 @media (max-width: 414px) {
 	.offer__title {

@@ -52,7 +52,7 @@
     "send_one4": "scp -C page-vtorichnaya.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/", 
     "send_one5": "scp -C page-chess.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/", 
     "send_one6": "scp -C page-chess-edit.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/", 
-    "send_one7": "scp -C page-chess-stat.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/", 
+    "send_one7": "scp -C page-chess-stat.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/",  
     "send_head": "scp -C header.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/",
     "send_cat": "scp -C category.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/",
     "send_singl": "scp -C single.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/",
