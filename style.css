@@ -5330,7 +5330,7 @@ input[type="checkbox"]:active {
 	}
 
 	.disclaimer.callback {
-		display: block;
+		/* display: block; */
 		bottom: 0;
 		height: 57px;
 		padding: 10px;
@@ -5785,8 +5785,29 @@ input[type="checkbox"]:active {
 	}
 }
 
+@media (max-width: 768px) {
+	.page-header__inner {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.slider-main__swiper-paggination {
+		left: -4.5%;
+	}
+}
+
+@media (max-width: 515px) {
+	.slider-main__swiper-paggination {
+		left: -7%;
+	}
+}
+
 @media (max-width: 414px) {
 	.offer__title {
 		font-size: 2.2em;
+	}
+
+	.slider-main__swiper-paggination {
+		left: -9%;
 	}
 }

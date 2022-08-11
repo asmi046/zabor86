@@ -34,19 +34,8 @@ get_header();
 				}
 			}
 			?> 
-						<!-- <div class="offer__sliders-slide slider__slide" style="background-image: url(/wp-content/themes/zabor/img/fon.jpg);">
-          		<div class="overlay"></div>
-          		<div class="container">
-            		<div class="offer__inner"> 
-              		<h1 class="offer__title">Строительство <span>заборов, ворот и установка кровли</span> любой сложности</h1>
-              		<div class="offer__text">Любые типы ворот, заборов и кровель<br>Работаем в Сургуте и по всему Ханты-Мансийскому округу</div>
-              		<a href="#callback" rel="modal:open" class="btn btn--main">Заказать консультацию</a> 
-            		</div>
-          		</div>
-						</div> -->
-
-					</div>
-        		<div class="slider-main__swiper-paggination swiper-paggination"></div>
+				</div>
+        	<div class="slider-main__swiper-paggination swiper-paggination"></div>
         </div>
 
         <div class="offer__bottom" id="advantages">
