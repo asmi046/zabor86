@@ -7,43 +7,34 @@ get_header();
         <div class="offer__top">
 
 					<div class="offer__sliders slider-bg _swiper">
-
-						<div class="offer__sliders-slide slider__slide" style="background-image: url(/wp-content/themes/zabor/img/fon.jpg);">
+					<?
+						$pict = carbon_get_theme_option('slider_index');
+							if ($pict) {
+						$pictIndex = 0;
+							foreach ($pict as $item) {
+					?>
+						<div class="offer__sliders-slide slider__slide" style="background-image: url(<?php echo wp_get_attachment_image_src($item['slider_img'], 'full')[0]; ?>);">
           		<div class="overlay"></div>
           		<div class="container">
             		<div class="offer__inner"> 
-              		<h1 class="offer__title">Строительство <span>заборов, ворот и установка кровли</span> любой сложности</h1>
-              		<div class="offer__text">Любые типы ворот, заборов и кровель<br>Работаем в Сургуте и по всему Ханты-Мансийскому округу</div>
-              		<a href="#callback" rel="modal:open" class="btn btn--main">Заказать консультацию</a> 
-              			<!--<div class="offer-call">
-                		<div class="offer-call__header">
-                	 	 <i class="fas fa-calculator fa-3x"></i>
-                 		 <span>Калькулятор</span> забора
-                		</div>
-               		 <ul class="offer-call__list">
-                 		 <li>Узнай цену за 2 минуты</li>
-                  		<li>Смоделируй из 500 моделей</li>
-                 		 <li>Узнай цену за 2 минуты</li>
-                		</ul>
-                		<div class="btn">Посчитать</div>
-              		</div>-->
+								<? if (!empty($item['slider_title'])) { ?>
+              		<h1 class="offer__title"><? echo $item['slider_title']; ?></h1>
+								<? } ?>
+								<? if (!empty($item['slider_subtitle'])) { ?>
+									<div class="offer__text"><? echo $item['slider_subtitle']; ?></div>
+								<? } ?>
+								<? if (!empty($item['slider_link_text'])) { ?>
+              		<a href="#callback" rel="modal:open" class="btn btn--main"><? echo $item['slider_link_text']; ?></a> 
+								<? } ?>
             		</div>
           		</div>
 						</div>
-
-
-						<div class="offer__sliders-slide slider__slide" style="background-image: url(/wp-content/themes/zabor/img/fon.jpg);">
-          		<div class="overlay"></div>
-          		<div class="container">
-            		<div class="offer__inner"> 
-              		<h1 class="offer__title">Строительство <span>заборов, ворот и установка кровли</span> любой сложности</h1>
-              		<div class="offer__text">Любые типы ворот, заборов и кровель<br>Работаем в Сургуте и по всему Ханты-Мансийскому округу</div>
-              		<a href="#callback" rel="modal:open" class="btn btn--main">Заказать консультацию</a> 
-            		</div>
-          		</div>
-						</div>
-
-						<div class="offer__sliders-slide slider__slide" style="background-image: url(/wp-content/themes/zabor/img/fon.jpg);">
+					<?
+					$pictIndex++;
+				}
+			}
+			?> 
+						<!-- <div class="offer__sliders-slide slider__slide" style="background-image: url(/wp-content/themes/zabor/img/fon.jpg);">
           		<div class="overlay"></div>
           		<div class="container">
             		<div class="offer__inner"> 
@@ -52,7 +43,7 @@ get_header();
               		<a href="#callback" rel="modal:open" class="btn btn--main">Заказать консультацию</a> 
             		</div>
           		</div>
-						</div>
+						</div> -->
 
 					</div>
         		<div class="slider-main__swiper-paggination swiper-paggination"></div>

@@ -1,4 +1,28 @@
 <?php
+
+define("COMPANY_NAME", "Новый сайт");
+define("MAIL_RESEND", "noreply@ultrakresla.ru"); 
+
+//----Подключене carbon fields
+//----Инструкции по подключению полей см. в комментариях themes-fields.php
+include "carbon-fields/carbon-fields-plugin.php";
+
+use Carbon_Fields\Container; 
+use Carbon_Fields\Field;
+
+add_action('carbon_fields_register_fields', 'crb_attach_theme_options'); 
+function crb_attach_theme_options()
+{
+	require_once __DIR__ . "/themes-fields.php";
+}
+
+add_action('after_setup_theme', 'crb_load');
+function crb_load()
+{
+	require_once('carbon-fields/vendor/autoload.php');
+	\Carbon_Fields\Carbon_Fields::boot();
+}
+
 /**
  * zabor functions and definitions
  *
@@ -172,7 +196,7 @@ function zabor_scripts() {
 	wp_enqueue_script( 'zabor-vendors-js', get_template_directory_uri() . '/js/vendors.min.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'zabor-swiper-js', get_template_directory_uri() . '/js/swiper.js', array(), _S_VERSION, true );
 }
-add_action( 'wp_enqueue_scripts', 'zabor_scripts' );
+add_action( 'wp_enqueue_scripts', 'zabor_scripts' ); 
 
 register_meta( 'post', 'price', array(
 	'type'              => 'string',
