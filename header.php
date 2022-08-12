@@ -111,7 +111,7 @@
 
 ] ); ?>
             <div class="main-nav__info">
-              <a href="tel:+79227766255">+7 (922) 776-62-55</a><a href="whatsapp://send?phone=+79227766255">&nbsp;<img src="/whatsapp.svg" style="width:20px;height:20px;"></a><br>
+              <a href="tel:+79227766255">+7 (922) 776-62-55</a><a href="whatsapp://send?phone=+79227766255">&nbsp;<img src="/whatsapp.svg" style="width:16px;height:16px;"></a><br>
 			  <a href="#callback" rel="modal:open"><span>Заказать звонок</span></a>
             </div>
             <button id="main-nav-toggler" class="main-nav__toggler burger"><span></span></button>

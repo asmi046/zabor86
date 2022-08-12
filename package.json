@@ -45,7 +45,7 @@
     "clear_r": "ssh zabor86_all@zabor86.beget.tech \"rm zabor86/public_html/wp-content/themes/zabor/*.*\"",
     "send_r": "scp -C *.php *.png *.css zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/",
     "send_ms": "scp -C *.css zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/",
-    "send_one": "scp -C 404.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/",
+    "send_one": "scp -C header.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/",
     "send_one1": "scp -C page-obj.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/",
     "send_one2": "scp -C page-novostroyki.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/",
     "send_one3": "scp -C page-commercial.php zabor86_all@zabor86.beget.tech:zabor86/public_html/wp-content/themes/zabor/",
